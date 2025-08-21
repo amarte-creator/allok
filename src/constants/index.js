@@ -1,78 +1,78 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "AI-Powered Tools",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "I build intelligent automation tools that streamline workflows and boost productivity. From custom AI assistants to data processing pipelines, I create solutions that give your business an unfair advantage.",
     items: [
       {
-        title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
+        title: "Custom AI Assistants",
+        description: "(ChatGPT plugins, workflow automation, smart integrations)",
       },
       {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        title: "Data Processing Tools",
+        description: "(ETL pipelines, analytics dashboards, automated reporting)",
       },
       {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
+        title: "API Development",
+        description: "(REST/GraphQL APIs, webhook systems, third-party integrations)",
       },
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "Ecommerce Brands",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "I launch and scale lean ecommerce brands from concept to profitable business. Every brand is built with data-driven insights, optimized conversion funnels, and sustainable growth strategies.",
     items: [
       {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
+        title: "Brand Strategy",
+        description: "(Market research, positioning, customer journey mapping)",
       },
       {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
+        title: "Store Development",
+        description: "(Shopify, WooCommerce, custom platforms)",
       },
       {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+        title: "Growth Marketing",
+        description: "(SEO, paid ads, email automation, social media)",
       },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "MVP Development",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "I rapidly prototype and validate business ideas through lean MVP development. From concept to launch in weeks, not months, with focus on user feedback and iterative improvement.",
     items: [
       {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
+        title: "Rapid Prototyping",
+        description: "(No-code tools, custom development, hybrid approaches)",
       },
       {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
+        title: "User Testing",
+        description: "(Feedback loops, analytics, conversion optimization)",
       },
       {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
+        title: "Iteration & Scaling",
+        description: "(Feature prioritization, technical debt management)",
       },
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "Creative Experiments",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "I explore emerging technologies and creative concepts through experimental projects. These side projects often become the foundation for new tools and business opportunities.",
     items: [
       {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
+        title: "Emerging Tech",
+        description: "(AI/ML experiments, blockchain, AR/VR concepts)",
       },
       {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
+        title: "Open Source",
+        description: "(Community tools, developer utilities, learning resources)",
       },
       {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
+        title: "Creative Coding",
+        description: "(Generative art, interactive experiences, digital products)",
       },
     ],
   },
@@ -80,55 +80,55 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "AI Content Assistant",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
+      "An intelligent tool that helps creators generate, optimize, and schedule content across multiple platforms using advanced AI models.",
     href: "",
     image: "/assets/projects/mobile-accessories-store.jpg",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
-      { id: 1, name: "React" },
+      { id: 1, name: "OpenAI API" },
       { id: 2, name: "Next.js" },
       { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
+      { id: 4, name: "PostgreSQL" },
       { id: 5, name: "Tailwind CSS" },
     ],
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "EcoTech Essentials",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
+      "A sustainable home goods brand focused on eco-friendly products that help reduce environmental impact while maintaining style and functionality.",
     href: "",
     image: "/assets/projects/plant-shop.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 1, name: "Shopify" },
+      { id: 2, name: "Klaviyo" },
+      { id: 3, name: "Stripe" },
+      { id: 4, name: "Google Analytics" },
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "DataFlow Pipeline",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
+      "An automated data processing tool that transforms raw business data into actionable insights with customizable dashboards and reporting.",
     href: "",
     image: "/assets/projects/apple-tech-store.jpg",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "Python" },
+      { id: 2, name: "Apache Airflow" },
+      { id: 3, name: "BigQuery" },
+      { id: 4, name: "React" },
     ],
   },
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "TechGadget Hub",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
+      "A curated marketplace for innovative tech gadgets and accessories, featuring exclusive deals and expert reviews.",
     href: "",
     image: "/assets/projects/electronics-store.jpg",
     bgImage: "/assets/backgrounds/poster.jpg",
@@ -136,46 +136,46 @@ export const projects = [
       { id: 1, name: "Vue.js" },
       { id: 2, name: "Laravel" },
       { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
+      { id: 4, name: "Algolia" },
     ],
   },
   {
     id: 5,
-    name: "Home Decor Marketplace",
+    name: "Minimalist Living",
     description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
+      "A lifestyle brand promoting minimalist living through thoughtfully designed products that enhance daily routines.",
     href: "",
     image: "/assets/projects/home-decor-store.jpg",
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
+      { id: 1, name: "WooCommerce" },
+      { id: 2, name: "WordPress" },
+      { id: 3, name: "Mailchimp" },
+      { id: 4, name: "PayPal" },
     ],
   },
   {
     id: 6,
-    name: "Digital Game Store",
+    name: "Creative Code Lab",
     description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
+      "An experimental platform showcasing generative art, interactive experiences, and creative coding projects.",
     href: "",
     image: "/assets/projects/game-store.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 1, name: "Three.js" },
+      { id: 2, name: "WebGL" },
+      { id: 3, name: "Canvas API" },
+      { id: 4, name: "GSAP" },
     ],
   },
 ];
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
+  { name: "Twitter", href: "https://twitter.com/allokfun" },
   {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/company/allok",
   },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "GitHub", href: "https://github.com/allok" },
+  { name: "Newsletter", href: "https://allok.fun/newsletter" },
 ];

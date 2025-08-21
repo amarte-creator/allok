@@ -10,9 +10,9 @@ const Works = () => {
   const previewRef = useRef(null);
 
   const [currentIndex, setCurrentIndex] = useState(null);
-  const text = `Featured projects that have been meticulously
-    crafted with passion to drive
-    results and impact.`;
+  const text = `Featured projects from our creative lab
+    showcasing AI tools, ecommerce brands, and
+    experimental innovations that drive impact.`;
 
   const mouse = useRef({ x: 0, y: 0 });
   const moveX = useRef(null);
@@ -102,7 +102,7 @@ const Works = () => {
   return (
     <section id="work" className="flex flex-col min-h-screen">
       <AnimatedHeaderSection
-        subTitle={"Logic meets Aesthetics, Seamlessly"}
+        subTitle={"Innovation meets execution, Seamlessly"}
         title={"Works"}
         text={text}
         textColor={"text-black"}

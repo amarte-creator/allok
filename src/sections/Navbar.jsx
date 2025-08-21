@@ -101,12 +101,21 @@ const Navbar = () => {
         ref={navRef}
         className="fixed z-50 flex flex-col justify-between w-full h-full px-10 uppercase bg-black text-white/80 py-28 gap-y-10 md:w-1/2 md:left-1/2"
       >
-        <div className="flex flex-col text-5xl gap-y-2 md:text-6xl lg:text-8xl">
+        {/* Logo */}
+        <div className="flex items-center justify-center mb-8">
+          <img
+            src="/logo/allok-logo-transparent.png"
+            alt="Allok Logo"
+            className="w-16 h-16 md:w-20 md:h-20"
+          />
+        </div>
+        
+        <div className="flex flex-col text-5xl gap-y-4 md:text-6xl lg:text-8xl md:gap-y-6 lg:gap-y-8">
           {["home", "services", "about", "work", "contact"].map(
             (section, index) => (
               <div key={index} ref={(el) => (linksRef.current[index] = el)}>
                 <Link
-                  className="transition-all duration-300 cursor-pointer hover:text-white"
+                  className="transition-all duration-300 cursor-pointer hover:text-white leading-[1.1]"
                   to={`${section}`}
                   smooth
                   offset={0}
@@ -125,7 +134,7 @@ const Navbar = () => {
           <div className="font-light">
             <p className="tracking-wider text-white/50">E-mail</p>
             <p className="text-xl tracking-widest lowercase text-pretty">
-              JohnDoe@gmail.com
+              hello@allok.fun
             </p>
           </div>
           <div className="font-light">
