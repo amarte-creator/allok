@@ -43,9 +43,11 @@ export function Planet(props) {
       <mesh ref={mainSphereRef} castShadow receiveShadow>
         <sphereGeometry args={[1, 32, 32]} />
         <meshStandardMaterial 
-          color="#2d3748" 
-          metalness={0.8} 
-          roughness={0.2}
+          color="#94a3b8" 
+          metalness={0.4} 
+          roughness={0.6}
+          transparent={true}
+          opacity={0.9}
         />
       </mesh>
       
@@ -59,9 +61,11 @@ export function Planet(props) {
       >
         <sphereGeometry args={[1, 16, 16]} />
         <meshStandardMaterial 
-          color="#4a5568" 
-          metalness={0.9} 
-          roughness={0.1}
+          color="#64748b" 
+          metalness={0.5} 
+          roughness={0.5}
+          transparent={true}
+          opacity={0.95}
         />
       </mesh>
       
@@ -75,10 +79,12 @@ export function Planet(props) {
       >
         <ringGeometry args={[1.2, 1.8, 32]} />
         <meshStandardMaterial 
-          color="#4a5568" 
-          metalness={0.9} 
-          roughness={0.1} 
+          color="#475569" 
+          metalness={0.6} 
+          roughness={0.4} 
           side={2}
+          transparent={true}
+          opacity={0.8}
         />
       </mesh>
     </group>
